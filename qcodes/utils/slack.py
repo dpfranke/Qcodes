@@ -101,7 +101,7 @@ class Slack(threading.Thread):
                 If not given, uses qc.config['user']['slack']
                 The config dict must contain the following keys:
                     'bot_name': Name of the bot
-                    'bot_token': Token from bot (obtained from slack website)
+                    'token': Token from bot (obtained from slack website)
                     'names': Usernames to periodically check for IM messages
             auto_start (Bool=True)
 
